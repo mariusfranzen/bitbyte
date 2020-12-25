@@ -11,6 +11,7 @@ import java.util.Optional;
 
 @Controller
 @RequestMapping(path = "/api/users")
+@CrossOrigin(origins = { "http://localhost:3000" })
 public class UserController {
 
     @Autowired

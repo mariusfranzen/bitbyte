@@ -32,7 +32,7 @@ public class User {
     @NotNull
     @Column(name = "password")
     private String password;
-    
+
     @Column(name = "date_of_birth")
     private Date dateOfBirth;
 
