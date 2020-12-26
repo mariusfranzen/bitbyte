@@ -22,6 +22,8 @@
 /frontend/yarn-debug.log*
 /frontend/yarn-error.log*
 
+/frontend/public/stylesheets
+
 /backend/target/
 /backend/!.mvn/wrapper/maven-wrapper.jar
 /backend/!**/src/main/**/target/

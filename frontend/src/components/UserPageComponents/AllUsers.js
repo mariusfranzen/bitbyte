@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import UserApi from "../../api/UserApi";
 
-export class UserTest extends Component {
+export class AllUsers extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -55,4 +55,4 @@ export class UserTest extends Component {
     }
 }
 
-export default UserTest;
+export default AllUsers;
